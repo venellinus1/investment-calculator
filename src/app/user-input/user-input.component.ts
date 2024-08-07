@@ -1,6 +1,6 @@
 import { Component, signal  } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InvestmentService } from './investment.service';
+import { InvestmentService } from '../investment.service';
 
 @Component({
   selector: 'app-user-input',
