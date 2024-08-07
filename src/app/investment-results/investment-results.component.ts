@@ -12,6 +12,5 @@ import { InvestmentService } from '../investment.service';
 export class InvestmentResultsComponent {
   constructor(private investmentService: InvestmentService){}
 
-  results = computed(() => this.investmentService.resultsData);
-  
+  results = this.investmentService.resultsData.asReadonly();
 }
